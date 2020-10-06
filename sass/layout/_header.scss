@@ -1,0 +1,32 @@
+.header {
+    height: 100vh;
+    background-image: linear-gradient(
+        to top, 
+        rgba($color-primary,0.8), 
+        rgba($color-primary-dark,0.8)),
+        url("../himalayas/hero.jpg");
+    background-size: cover;
+    background-position: top;
+
+    clip-path: polygon();
+
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+    &__search-box {
+
+        display: block;
+        background: #c3d9f86c;
+        height: 5rem;
+        border-radius: 4rem;
+        padding: 1rem;
+        width: 85%;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 5rem;
+      }
+}
