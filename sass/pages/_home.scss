@@ -3,3 +3,13 @@
     padding: 5rem 0;
     // margin-top: -20vh;
 }
+
+.section-features {
+    padding: 20rem 0;
+    background-image: linear-gradient(
+        to top, 
+        rgba($color-primary,0.8), 
+        rgba($color-primary-dark,0.8)),
+        url("../himalayas/hero.jpg");
+        background: cover;
+}
