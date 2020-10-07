@@ -4,12 +4,23 @@
     // margin-top: -20vh;
 }
 
+
+
+
+
 .section-features {
     padding: 20rem 0;
     background-image: linear-gradient(
-        to top, 
-        rgba($color-primary,0.8), 
-        rgba($color-primary-dark,0.8)),
-        url("../himalayas/hero.jpg");
-        background: cover;
+        to bottom, 
+        rgba($color-primary,0.3), 
+        rgba($color-primary-dark,0.4)),
+        url("../himalayas/feature-bg.jpg");
+        background-size: cover;
+        // padding-bottom: 10rem;
+}
+
+.section-tours {
+    background-color: $color-grey-light-1;
+    padding: 5rem 0 5rem 0;
+    
 }
