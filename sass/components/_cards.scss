@@ -25,22 +25,22 @@
 
             // Back 1
             &-1 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+                background-image: linear-gradient(to right bottom, $color-primary, $color-primary-dark);
 
             }
 
             &-2 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+                background-image: linear-gradient(to right bottom, $color-primary, $color-primary-dark);
 
             }
 
             &-3 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+                background-image: linear-gradient(to right bottom, $color-primary, $color-primary-dark);
 
             }
 
             &-4 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+                background-image: linear-gradient(to right bottom, $color-primary, $color-primary-dark);
 
             }
 
@@ -69,25 +69,25 @@
 
         // Card 1
         &--1 {
-            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
+            background-image: linear-gradient(to right bottom, $color-primary, $color-primary-dark),
             url("../himalayas/trip-1.jpg");
 
         }
         // card 2
         &--2 {
-            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
+            background-image: linear-gradient(to right bottom, $color-primary, $color-primary-dark),
             url("../himalayas/trip-2.jpg");
 
         }
         // card 3
         &--3 {
-            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
+            background-image: linear-gradient(to right bottom, $color-primary, $color-primary-dark),
             url("../himalayas/trip-3.jpg");
 
         }
         // card 4
         &--4 {
-            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
+            background-image: linear-gradient(to right bottom, $color-primary, $color-primary-dark),
             url("../himalayas/trip-4.jpg");
 
         }
