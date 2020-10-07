@@ -10,8 +10,30 @@
 
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%;   // 1rem = 10px
+
+
+    // @include respond(phone){
+    //     font-size: 50%;
+    // }
+
+
+
+    @include respond(tab-land){    //width < 900
+        font-size: 56.25%;        // 1rem = 9px
+    }
+
+    @include respond(tab-port){      //width < 600
+        font-size: 50%;     //1 rem = 8px
+    }
+
+    @include respond(desktop){
+        font-size: 75%;    // 1 rem = 12 px
+    }
+
+
 }
+
 
 body {
 
@@ -22,4 +44,9 @@ body {
     padding: 0.077rem;
 
     box-sizing: border-box;
+
+
+    @include respond(tab-port){      
+        // padding: 0;  
+    }
 }
