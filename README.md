@@ -10,5 +10,4 @@
 2. It has modern design and cool animations and effects
 3. It has a full responsive across different screen sizes
 
-## I hope you like it :)
 
